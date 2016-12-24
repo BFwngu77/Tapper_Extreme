@@ -14,6 +14,10 @@
 		89A173031E0DB87700D28584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A173011E0DB87700D28584 /* LaunchScreen.storyboard */; };
 		89A1730E1E0DB87800D28584 /* Tapper_ExtremeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A1730D1E0DB87800D28584 /* Tapper_ExtremeTests.swift */; };
 		89A173191E0DB87800D28584 /* Tapper_ExtremeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A173181E0DB87800D28584 /* Tapper_ExtremeUITests.swift */; };
+		89A1732A1E0DB8DD00D28584 /* playbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A173261E0DB8DD00D28584 /* playbtn.png */; };
+		89A1732B1E0DB8DD00D28584 /* retrobg.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A173271E0DB8DD00D28584 /* retrobg.png */; };
+		89A1732C1E0DB8DD00D28584 /* Tapper.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A173281E0DB8DD00D28584 /* Tapper.png */; };
+		89A1732D1E0DB8DD00D28584 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A173291E0DB8DD00D28584 /* coin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		89A173141E0DB87800D28584 /* Tapper-ExtremeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tapper-ExtremeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A173181E0DB87800D28584 /* Tapper_ExtremeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapper_ExtremeUITests.swift; sourceTree = "<group>"; };
 		89A1731A1E0DB87800D28584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A173261E0DB8DD00D28584 /* playbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbtn.png; sourceTree = "<group>"; };
+		89A173271E0DB8DD00D28584 /* retrobg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retrobg.png; sourceTree = "<group>"; };
+		89A173281E0DB8DD00D28584 /* Tapper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tapper.png; sourceTree = "<group>"; };
+		89A173291E0DB8DD00D28584 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 				89A172FA1E0DB87700D28584 /* ViewController.swift */,
 				89A172FC1E0DB87700D28584 /* Main.storyboard */,
 				89A172FF1E0DB87700D28584 /* Assets.xcassets */,
+				89A173261E0DB8DD00D28584 /* playbtn.png */,
+				89A173271E0DB8DD00D28584 /* retrobg.png */,
+				89A173281E0DB8DD00D28584 /* Tapper.png */,
+				89A173291E0DB8DD00D28584 /* coin.png */,
 				89A173011E0DB87700D28584 /* LaunchScreen.storyboard */,
 				89A173041E0DB87700D28584 /* Info.plist */,
 			);
@@ -232,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A1732B1E0DB8DD00D28584 /* retrobg.png in Resources */,
+				89A1732C1E0DB8DD00D28584 /* Tapper.png in Resources */,
+				89A1732A1E0DB8DD00D28584 /* playbtn.png in Resources */,
 				89A173031E0DB87700D28584 /* LaunchScreen.storyboard in Resources */,
 				89A173001E0DB87700D28584 /* Assets.xcassets in Resources */,
 				89A172FE1E0DB87700D28584 /* Main.storyboard in Resources */,
+				89A1732D1E0DB8DD00D28584 /* coin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Tapper-Extreme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -415,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Tapper-Extreme";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
